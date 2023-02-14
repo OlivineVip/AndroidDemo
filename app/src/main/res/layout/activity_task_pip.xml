@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".task.TaskPipActivity">
+
+
+    <TextView
+        android:id="@+id/tv_pip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="pip" />
+
+
+    <Button
+        android:id="@+id/btn_normal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="normal" />
+
+    <Button
+        android:id="@+id/btn_single_task"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="single task " />
+
+    <Button
+        android:id="@+id/btn_single_instance"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="single instance" />
+
+    <Button
+        android:id="@+id/btn_pip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="pip" />
+</LinearLayout>

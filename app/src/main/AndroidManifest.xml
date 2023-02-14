@@ -12,6 +12,37 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AndroidDemo"
         tools:targetApi="31">
+
+        <activity
+            android:name=".task.TaskNormalActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".task.TaskSingleInstanceActivity"
+            android:exported="false"
+            android:launchMode="singleInstance" />
+
+        <activity
+            android:allowTaskReparenting="true"
+            android:excludeFromRecents="true"
+            android:name=".task.TaskPipActivity"
+            android:configChanges="screenSize|smallestScreenSize|screenLayout|orientation"
+            android:exported="false"
+            android:launchMode="singleTask"
+            android:resizeableActivity="true"
+            android:supportsPictureInPicture="true" />
+
+        <activity
+            android:name=".task.TaskSingleTaskActivity"
+            android:exported="false"
+            android:launchMode="singleTask" />
+
+        <activity
+            android:name=".task.TaskMainActivity"
+            android:exported="false"
+            android:launchMode="singleTask" />
+
+
         <activity
             android:name=".MainActivity"
             android:exported="true"
